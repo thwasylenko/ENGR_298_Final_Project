@@ -2,13 +2,14 @@
 Analysis of Blood Oxygen data found on Physionet. Trying to find the physical factor that has the greatest effect on blood oxygen values in a person., utilizing MATLAB to perform statistical tests. Link to PhysioNet data and study: https://physionet.org/content/osv/1.0.0/
 
 Required programs:
--MATLAB
--Formatted excel file
+MATLAB;
+Excel;
+Formatted excel file
 
-Main Programs:
--anova_test.m
--mult_compare.m
--anova_nway.m
+Main Programs Written:
+anova_test.m;
+mult_compare.m;
+anova_nway.m
 
 Tutorial:
 1. Download files from GitHub
@@ -17,15 +18,15 @@ Tutorial:
 4. Run "mult_compare.m"
 5. Run "anova_nway.m"
 6. Variables will contain analysis
-After the test is run a figure and/or table will appear a long with the saved variables
+7. After the test is run a figure and/or table will appear along with the saved variables
 
 Result Sample:
--Age has the greater significance over all other factors
--Smoking is the next significant factor
--BMI is least significant
+Age has the greater significance over all other factors;
+Smoking is the next significant factor;
+BMI is least significant
 
 Limitations:
--"mult_compare.m" file requires each line to be run individually
+"mult_compare.m" file requires each line to be run individually
 
 Future possible results:
--The factors that have significant affects may change with greater amount of participants
+The factors that have significant affects may change with greater amount of participants
