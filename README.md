@@ -17,7 +17,7 @@ Tutorial:
 4. Run "mult_compare.m"
 5. Run "anova_nway.m"
 6. Variables will contain analysis
-*After the test is run a figure and/or table will appear a long with the saved variables*
+After the test is run a figure and/or table will appear a long with the saved variables
 
 Result Sample:
 -Age has the greater significance over all other factors
